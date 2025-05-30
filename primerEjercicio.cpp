@@ -30,7 +30,12 @@ int main(){
 	if(numero<1 || numero>7){
 		cout<<"Dia de la semana no encontrado"<<endl;
 	}
-	cout<<"GRACIAS, PROGRAMA TERMINADO";
+	if(numero == 7 || numero == 1){
+		cout<<"Tienes el dia libre."<<endl;
+	}else{
+		cout<<"Tienes clases."<<endl;
+	}
+	cout<<"\nGRACIAS, PROGRAMA TERMINADO";
 	
 	return 0;
 }
