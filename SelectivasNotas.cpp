@@ -9,7 +9,7 @@ int main(){
 	cout<<"Digite la primera nota: "; cin>>Nota1;
 	cout<<"Digite la segunda nota: "; cin>>Nota2;
 	cout<<"Digite la tercera nota: "; cin>>Nota3;
-	
+	//Seccion de validaciones
 	if(Nota1<0){
 		Nota1=Nota1*-1;
 	}
